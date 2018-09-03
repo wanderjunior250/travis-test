@@ -7,3 +7,4 @@ before_install:
   - bundler install
 script:
   - cucumber --version
+  - bundler exec cucumber
