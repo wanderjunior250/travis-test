@@ -42,5 +42,5 @@ Capybara.configure do |config|
   Capybara.current_driver = driver
   Capybara.javascript_driver = driver
   config.default_max_wait_time = CONFIG['default_max_wait_time']
-  Capybara.page.driver.browser.manage.window.maximize if driver == :chrome
+  #Capybara.page.driver.browser.manage.window.maximize if driver == :chrome
 end
