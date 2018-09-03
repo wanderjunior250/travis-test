@@ -5,19 +5,13 @@ env:
   DOCKER_COMPOSE_VERSION: 1.8.0
 before_install:
   - sudo apt-get update -qq
-  - sudo rm /usr/local/bin/docker-compose
-  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
-  - chmod +x docker-compose
-  - sudo mv docker-compose /usr/local/bin
   - gem install bundler
   - bundler install
 
 before_script:
-  - docker-compose up --build -d
+  - java -jar selenium-server-standalone-3.9.1.jar -role hub
+  - java -jar selenium-server-standalone-3.9.1.jar -role node  -hub http://localhost:4444/grid/register
 
 script:
   - cucumber --version
   - bundler exec cucumber
-  
-after_script:
-  - docker-compose down
