@@ -3,8 +3,6 @@ require 'yaml'
 require 'selenium/webdriver'
 require 'capybara/dsl'
 require 'pry'
-require 'open-uri'
-require 'site_prism'
 
 include Capybara::DSL
 include RSpec::Matchers
