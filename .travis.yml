@@ -9,6 +9,7 @@ before_install:
   - sudo apt-get update -qq
   - gem install bundler
   - bundler install
+  - chmod 777 ./drivers/chromedriver
 
 script:
   - cucumber --version
