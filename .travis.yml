@@ -1,5 +1,7 @@
 language: ruby
 sudo: required
+addons:
+  chrome: stable
 services: docker
 env:
   DOCKER_COMPOSE_VERSION: 1.8.0
@@ -7,10 +9,6 @@ before_install:
   - sudo apt-get update -qq
   - gem install bundler
   - bundler install
-
-before_script:
-  - nohup java -jar selenium-server-standalone-3.9.1.jar -role hub > /dev/null &
-  - nohup java -jar selenium-server-standalone-3.9.1.jar -role node  -hub http://localhost:4444/grid/register > /dev/null &
 
 script:
   - cucumber --version
