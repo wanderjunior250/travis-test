@@ -17,8 +17,8 @@ end
 
 Capybara.register_driver :chrome do |app|
 	options = Selenium::WebDriver::Chrome::Options.new(args: %w[no-sandbox headless disable-gpu])
-	
-	Capybara::Selenium::Driver.new(app, browser: :chrome, options: options, driver_path: => "./drivers/chromedriver")
+	Selenium::WebDriver::Chrome.driver_path = './drivers/chromedriver'
+	Capybara::Selenium::Driver.new(app, browser: :chrome, options: options)
 end
 
 Capybara.register_driver :firefox do |app|
