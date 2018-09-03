@@ -12,5 +12,5 @@ Contexto: Acessar a loja e realizar login
 
 @positivo @smokeTest
 Cenário: Realizar Busca Por Um Produto Valido
-  Quando eu realizar busca por "teste"
+  Quando eu realizar busca por "sei la"
   Então devo estar na tela de busca valida
