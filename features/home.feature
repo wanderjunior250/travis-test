@@ -2,15 +2,14 @@
 #utf-8
 
 @busca @appVersion
-Funcionalidade: Busca
+Funcionalidade: Home
   Como cliente
   Eu quero buscar produtos
   Para visualizar mais informações sobre eles
 
-Contexto: Acessar a loja e realizar login
+Contexto: Acessar o site
   Dado que eu esteja na home do site Google
 
 @positivo @smokeTest
-Cenário: Realizar Busca Por Um Produto Valido
-  Quando eu realizar busca por "sei la"
-  Então devo estar na tela de busca valida
+Cenário: Validar acesso ao site
+  Então devo estar na home do site
