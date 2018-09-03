@@ -11,10 +11,13 @@ before_install:
   - sudo mv docker-compose /usr/local/bin
   - gem install bundler
   - bundler install
-  - docker-compose pull
-  - docker-compose build
-  - docker-compose start
-  - docker ps
+
+before_script:
+  - docker-compose up --build -d
+
 script:
   - cucumber --version
   - bundler exec cucumber
+  
+after_script:
+  - docker-compose down
