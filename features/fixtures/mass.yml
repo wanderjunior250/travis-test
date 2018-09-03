@@ -1,0 +1,389 @@
+cartoes_de_credito:
+  mastercard:
+    numero: '5199999999999999' 
+    nome: 'Teste Automatizado MASTERCARD'
+    validade_mes: '08'
+    validade_ano: '2021'
+    codigo_seguranca: '123'
+  visa:
+    numero: '4916565796532031' 
+    nome: 'Teste Automatizado VISA'
+    validade_mes: '05'
+    validade_ano: '2019'
+    codigo_seguranca: '934'
+  diners_club:
+    numero: '36207796302072' 
+    nome: 'Teste Automatizado Diners Club'
+    validade_mes: '02'
+    validade_ano: '2020'
+    codigo_seguranca: '891'
+  amex:
+    numero: '342499550150073' 
+    nome: 'Teste Automatizado AMEX'
+    validade_mes: '11'
+    validade_ano: '2019'
+    codigo_seguranca: '5075'
+  elo:
+    numero: '6362971402709241' 
+    nome: 'Teste Automatizado ELO'
+    validade_mes: '09'
+    validade_ano: '2019'
+    codigo_seguranca: '417'
+
+    
+
+DECATHLON:
+  cliente_valido_1:
+    email: 'infratech.teste@gmail.com'
+    senha: '123456'
+    nova_senha: '1234567'
+    nome_completo: 'InfraTech Teste'
+    apelido: 'Infracommerce'
+    celular: '1188888888'
+    telefone: '1188888888'
+    telefone_comercial: '1155555555'
+    apelido: 'Infracommerce'
+    rua: 'Estrada Pirajussara-Valo Velho'
+    numero: '1666'
+    complemento: 'ANDAR 15 CONJ 151'
+    bairro: 'Jardim Mitsutani'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '05791-220'
+    data_de_nascimento: '01/01/2001'
+    cpf: '74882568837'
+    genero: 'feminino'
+    senha_invalida: '1234'
+    recebe_ofertas_por_email: false
+    identificacao_endereco: 'Casa automação'
+    destinatario: 'Infra Automação'
+    complemento: 'Casa 1'
+    referencia: 'Próximo ao restaurante kiko mida'
+
+
+  cliente_valido_1_alterado:
+    nome: 'Infracommerce Teste Automatizado'
+    email: 'infratech.teste.automatizado@gmail.com'
+    senha: '123456'
+    nova_senha: '1234567'
+    nome_completo: 'InfraTech Teste Automatizado'
+    apelido: 'Infracommerce Teste Automatizado'
+    celular: '2244444444'
+    telefone: '1577777777'
+    telefone_comercial: '1166666666'
+    rua: 'Rua Luiz de Almeida Fernandes'
+    numero: '171'
+    complemento: 'Casa 1'
+    bairro: 'Itaquera'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '08215-430'
+    data_de_nascimento: '25/11/1996'
+    cpf: '74882568837'
+    genero: 'masculino'
+    senha_invalida: '1234'
+    recebe_ofertas_por_email: true
+    identificacao_endereco: 'Apartamento da automação'
+    destinatario: 'Automação Infracommerce'
+
+  endereco_valido_1:
+    rua: 'Rua Luiz de Almeida Fernandes'
+    numero: '171'
+    complemento: 'Casa 1'
+    bairro: 'Itaquera'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '08215-430'
+    identificacao_endereco: 'Apartamento da automação'
+    destinatario: 'Automação Infracommerce'
+
+  dados_invalidos:
+    senha: '123456'
+    senha_invalida: '1234'
+    email: 'teste.com'
+    nova_senha: '123'
+
+  novo_cadastro_vazio:
+    senha: ''
+    nova_senha: ''
+    email: ''
+      
+  produtos:
+    produto_valido_1: 
+      sku: '1951116'
+      nome: 'BOLA FUTEBOL SOCIETY EURO 2012'
+      preco: '59.95'
+    produto_valido_2: 
+      sku: '1944556'
+      nome: 'BOLA NIKE TEAM TRAINING'
+      preco: '49.95'
+    produto_valido_3: 
+      sku: '1433798'
+      nome: 'TÊNIS KALENJI'
+      preco: '79.95'
+    produto_valido_4: 
+      sku: '1989560'
+      nome: 'TÊNIS AMBITION'
+      preco: '59.95'
+    produto_valido_5: 
+      sku: '974058'
+      nome: 'CAMISA BALLYHOO NETUNO'
+      preco: '99.99'
+    produto_valido_6: 
+      sku: '931409'
+      nome: 'CAMISA ASW ACTIVE ML'
+      preco: '89.95'
+    produto_valido_7:
+      sku: '246808'
+      nome: 'ÓCULOS NATAÇÃO XBASE ADULTO'
+      preco: '21.99'
+    produto_invalido_1: 
+      sku: '779129399811223'
+      nome: 'Uolmo'
+
+  carrinhos:
+    carrinho_x_produtos:
+      produtos:
+        produto_valido_1: 1
+      frete: 0.0
+
+  meios_de_pagamento:
+    bill: "Boleto bancário"
+    credit: "Cartão de crédito"
+
+
+MERCATTO:
+  cliente_valido_1:
+    nome: 'Infracommerce'
+    email: 'infratech.teste@gmail.com'
+    senha: '123456'
+    nova_senha: '1234567'
+    nome_completo: 'InfraTech Teste'
+    apelido: 'Infracommerce'
+    celular: '2211111111'
+    telefone: '12789456123'
+    rua: 'Avenida Doutor Cardoso de Melo'
+    numero: '1855'
+    complemento: 'ANDAR 15 CONJ 151'
+    bairro: 'Vila Olímpia'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '04548-005'
+    data_de_nascimento: '01/01/1981'
+    cpf: '77773127310'
+    genero: 'masculino'
+    senha_invalida: '1234'
+    recebe_ofertas_por_email: false
+    identificacao_endereco: 'Casa automação'
+    destinatario: 'Infra Automação'
+    complemento: 'Casa 1'
+    referencia: 'Próximo ao restaurante kiko mida'
+
+
+  cliente_valido_1_alterado:
+    nome: 'Infracommerce Teste Automatizado'
+    email: 'infratech.teste.automatizado@gmail.com'
+    senha: '123456'
+    nova_senha: '1234567'
+    nome_completo: 'InfraTech Teste Automatizado'
+    apelido: 'Infracommerce Teste Automatizado'
+    celular: '2244444444'
+    telefone: '1577777777'
+    telefone_comercial: '1166666666'
+    rua: 'Rua Luiz de Almeida Fernandes'
+    numero: '171'
+    complemento: 'Casa 1'
+    bairro: 'Itaquera'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '08215-430'
+    data_de_nascimento: '25/11/1996'
+    cpf: '74882568837'
+    genero: 'masculino'
+    senha_invalida: '1234'
+    recebe_ofertas_por_email: true
+    identificacao_endereco: 'Apartamento da automação'
+    destinatario: 'Automação Infracommerce'
+
+  endereco_valido_1:
+    rua: 'Rua Luiz de Almeida Fernandes'
+    numero: '171'
+    complemento: 'Casa 1'
+    bairro: 'Itaquera'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '08215-430'
+    identificacao_endereco: 'Apartamento da automação'
+    destinatario: 'Automação Infracommerce'
+
+  dados_invalidos:
+    senha: '123456'
+    senha_invalida: '1234'
+    email: 'teste.com'
+    nova_senha: '123'
+
+  novo_cadastro_vazio:
+    senha: ''
+    nova_senha: ''
+    email: ''
+      
+  produtos:
+    produto_valido_1: 
+      sku: '2825152001477'
+      nome: 'Blusa Thuany'
+      preco: '27.99'
+    produto_valido_2: 
+      sku: '2824962045470'
+      nome: 'Camisa Carola'
+      preco: '20.00'
+    produto_valido_3: 
+      sku: '2824377045492'
+      nome: 'Camisa Alfa'
+      preco: '25.00'
+    produto_valido_4: 
+      sku: ''
+      nome: ''
+      preco: ''
+    produto_valido_5: 
+      sku: ''
+      nome: ''
+      preco: ''
+    produto_valido_6: 
+      sku: ''
+      nome: ''
+      preco: ''
+    produto_valido_7:
+      sku: '2825909114531'
+      nome: 'Blusa de Tricot Érica'
+      preco: '59.99'
+    produto_invalido_1: 
+      sku: '779129399811223'
+      nome: 'Uolmo'
+
+  carrinhos:
+    carrinho_x_produtos:
+      produtos:
+        produto_valido_1: 1
+      frete: 0.0
+
+  meios_de_pagamento:
+    bill: "Boleto bancário"
+    credit: "Cartão de crédito"
+
+LP:
+  cliente_valido_1:
+    nome: 'Infracommerce'
+    email: 'infratech.teste@gmail.com'
+    senha: '123456'
+    nova_senha: '1234567'
+    nome_completo: 'InfraTech Teste'
+    apelido: 'teste teste'
+    celular: '77123333333'
+    telefone: '18112348866'
+    telefone_comercial: '1122222222'
+    rua: 'Rua Haddock Lobo'
+    numero: '1'
+    complemento: 'ANDAR 15 CONJ 151'
+    bairro: 'Cerqueira César'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '01414-000'
+    data_de_nascimento: '22/11/1988'
+    cpf: '25393925557'
+    genero: 'feminino'
+    senha_invalida: '1234'
+    recebe_ofertas_por_email: false
+    identificacao_endereco: 'Casa automação'
+    destinatario: 'Infra Automação'
+    complemento: 'Casa 1'
+    referencia: 'Próximo ao restaurante kiko mida'
+
+  cliente_valido_1_alterado:
+    nome: 'Infracommerce Teste Automatizado'
+    email: 'infratech.teste.automatizado@gmail.com'
+    senha: '123456'
+    nova_senha: '1234567'
+    nome_completo: 'InfraTech Teste Automatizado'
+    apelido: 'Infracommerce Teste Automatizado'
+    celular: '2244444444'
+    telefone: '1577777777'
+    telefone_comercial: '1166666666'
+    rua: 'Rua Luiz de Almeida Fernandes'
+    numero: '171'
+    complemento: 'Casa 1'
+    bairro: 'Itaquera'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '08215-430'
+    data_de_nascimento: '25/11/1996'
+    cpf: '74882568837'
+    genero: 'masculino'
+    senha_invalida: '1234'
+    recebe_ofertas_por_email: true
+    identificacao_endereco: 'Apartamento da automação'
+    destinatario: 'Automação Infracommerce'
+
+  endereco_valido_1:
+    rua: 'Rua Luiz de Almeida Fernandes'
+    numero: '171'
+    complemento: 'Casa 1'
+    bairro: 'Itaquera'
+    estado: 'SP'
+    cidade: 'São Paulo'
+    cep: '08215-430'
+    identificacao_endereco: 'Apartamento da automação'
+    destinatario: 'Automação Infracommerce'
+
+  dados_invalidos:
+    senha: '123456'
+    senha_invalida: '1234'
+    email: 'teste.com'
+    nova_senha: '123'
+
+  novo_cadastro_vazio:
+    senha: ''
+    nova_senha: ''
+    email: ''
+      
+  produtos:
+    produto_valido_1: 
+      sku: '7909101444115'
+      nome: 'BODY TRANSPASSADO'
+      preco: '100'
+    produto_valido_2: 
+      sku: '7909101341254'
+      nome: 'BODY COM RECORTES'
+      preco: '120'
+    produto_valido_3: 
+      sku: '7909101486894'
+      nome: 'BODY COM ALÇAS E RECORTES NA CINTURA'
+      preco: '500'
+    produto_valido_4: 
+      sku: ''
+      nome: ''
+      preco: ''
+    produto_valido_5: 
+      sku: ''
+      nome: ''
+      preco: ''
+    produto_valido_6: 
+      sku: ''
+      nome: ''
+      preco: ''
+    produto_valido_7:
+      sku: '7909101486849'
+      nome: 'BODY COM ALÇAS E RECORTES NA CINTURA'
+      preco: '500'
+    produto_invalido_1: 
+      sku: '779129399811223'
+      nome: 'Uolmo'
+
+  carrinhos:
+    carrinho_x_produtos:
+      produtos:
+        produto_valido_1: 1
+      frete: 0.0
+
+  meios_de_pagamento:
+    bill: "Boleto bancário"
+    credit: "Cartão de crédito"

@@ -1,0 +1,8 @@
+default: --no-source --color --format pretty
+regressao: --no-source --color --format pretty -t 'not @ignore'
+decathlon: -p default storeId='DECATHLON' -t @decathlon
+mercatto: -p default storeId='MERCATTO' -t @mercatto
+lp: -p default storeId='LP' -t @lp
+hcp: env='HCP'
+prd: env='PRD'
+dev: env='DEV'

@@ -1,0 +1,19 @@
+SSERV:
+  HCP:
+    app_version: 'http://cart-{storeId}-hcp.infracommerce.com.br/sserv/appVersion.html'
+
+HOME:
+  HCP: 
+    url: 'http://www-{storeId}-hcp.infracommerce.com.br/'
+    app_version: 'www-{storeId}-hcp.infracommerce.com.br/appVersion.html'
+  PROD: 
+    url: 'http://www.{storeId}.com.br'
+  
+CART:
+  HCP:
+    login: 'http://cart-{storeId}-hcp.infracommerce.com.br/login'
+    add_itens: 'https://cart-{storeId}-hcp.infracommerce.com.br/ckout/addItems.xhtml?addsku=skus'
+    app_version: 'http://cart-{storeId}-hcp.infracommerce.com.br/ckout/appVersion.html'
+  PROD: 
+    login: 'https://cart.{storeId}.com.br/login'
+
